@@ -1,5 +1,4 @@
-Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o: \
- ../Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c \
+Core/Src/LCD1602.o: ../Core/Src/LCD1602.c ../Core/Inc/LCD1602.h \
  ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h \
  ../Core/Inc/stm32f3xx_hal_conf.h \
  ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h \
@@ -28,6 +27,7 @@ Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.o: \
  ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_pwr_ex.h \
  ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim.h \
  ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_tim_ex.h
+../Core/Inc/LCD1602.h:
 ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal.h:
 ../Core/Inc/stm32f3xx_hal_conf.h:
 ../Drivers/STM32F3xx_HAL_Driver/Inc/stm32f3xx_hal_rcc.h:
